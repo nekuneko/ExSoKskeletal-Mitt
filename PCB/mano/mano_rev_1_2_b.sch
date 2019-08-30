@@ -3884,8 +3884,8 @@ Source: &lt;a href="https://power.murata.com/data/power/okl-t6-w12.pdf"&gt; Data
 <part name="SERVO6" library="JST XH Connectors v1-0" deviceset="JST-XH-03-PIN" device="-LONG-PAD"/>
 <part name="BATTERY" library="JST XH Connectors v1-0" deviceset="JST-XH-03-PIN" device="-LONG-PAD"/>
 <part name="U$21" library="microbuilder" deviceset="5.0V" device=""/>
-<part name="R4" library="microbuilder" deviceset="RESISTOR" device="_0603" value="4.7k"/>
-<part name="R5" library="microbuilder" deviceset="RESISTOR" device="_0603" value="4.7k"/>
+<part name="R4" library="microbuilder" deviceset="RESISTOR" device="_0603" value="2.2k"/>
+<part name="R5" library="microbuilder" deviceset="RESISTOR" device="_0603" value="2.2k"/>
 <part name="U$10" library="microbuilder" deviceset="3.3V" device=""/>
 <part name="R6" library="microbuilder" deviceset="RESISTOR" device="_0603" value="10k"/>
 <part name="R7" library="microbuilder" deviceset="RESISTOR" device="_0603" value="33k"/>
@@ -4014,6 +4014,10 @@ output capacitance listed in the specifi cations.</text>
 <text x="10.16" y="-129.54" size="1.778" layer="97">Positive logic
 Open or VIN = On
 Closed or Ground = Off (GND)</text>
+<text x="149.86" y="-68.58" size="1.778" layer="91">tirar a masa con resistencia de 10k a pulldown el interruptor
+comprar condensador regulador tension adecuados en tamaño
+cambiar posicion resistencias y serigrafica conector gba
+</text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="0" y="0" smashed="yes">

@@ -2571,7 +2571,7 @@ github.com/akstudios</description>
 <sheets>
 <sheet>
 <plain>
-<text x="7.62" y="38.1" size="1.778" layer="97">Nota: Las resistencias de 4.7k de las líneas SCL y SDA del bus I2C deberán colocarse a pull-up 3.3V en la placa principal.
+<text x="7.62" y="38.1" size="1.778" layer="97">Nota: Las resistencias de 2.2k de las líneas SCL y SDA del bus I2C deberán colocarse a pull-up 3.3V en la placa principal.
 Nota: La señal !RESET deberá tener una resistencia de 10k a pull-up 3.3V y un condensador de desacoplo en la placa principal.</text>
 <text x="186.69" y="11.43" size="2.54" layer="94">Github: @NeKuNeKo</text>
 <text x="238.76" y="7.62" size="2.54" layer="94">V1.2</text>
@@ -2596,6 +2596,10 @@ Recommended to use a look like address for the pair SAMD-Pot
 Example: 
 0x40 - 0x20
 0x4f - 0x2f</text>
+<text x="93.98" y="17.78" size="2.54" layer="97" ratio="15" align="center">JTAG ⇆ SOK ⇆ FINGER
+-------------------
+SWDIO ⇆ MOSI ⇆ SCL
+SWCLK ⇆ MISO ⇆ SDA</text>
 </plain>
 <instances>
 <instance part="SAMD09" gate="G$1" x="60.96" y="119.38" smashed="yes">
