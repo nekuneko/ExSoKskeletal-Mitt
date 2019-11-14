@@ -1,0 +1,16 @@
+
+Rev 1.4
+	Changes in serigraph and now Led ON es below the board, following KittySyringe 1.1 design.
+
+Rev 1.3b
+	Some serigraph corrections based on last manufacturing process.
+
+Rev 1.3
+	Now FingerSoK Pinout is ok, fabrication was successfully.
+
+Rev 1.2
+	Bad SM06B FingerSoK Pinout
+
+Rev 1.1
+Rev 1.0
+	Bad jtag holes diameter
