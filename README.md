@@ -1,4 +1,4 @@
-# manoRobotica
-Robotic Hand for ICTUS patients
+# ExSoKskeletal Mitt
+Robotic Hand for ICTUS patients based on SoK (System on Keyring) boards.
 
-Usign EAGLE 9.4.2
+Usign Autodesk EAGLE 9.5.2
